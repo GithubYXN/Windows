@@ -134,13 +134,13 @@ endif
 "------------------------------------------------------------------------------
 "  < 编译、连接、运行配置 >
 "------------------------------------------------------------------------------
-" F9 一键保存、编译、连接存并运行
-map <F9> :call Run()<CR>
-imap <F9> <ESC>:call Run()<CR>
+" F5 一键保存、编译、连接存并运行
+map <F5> :call Run()<CR>
+imap <F5> <ESC>:call Run()<CR>
  
-" Ctrl + F9 一键保存并编译
-map <c-F9> :call Compile()<CR>
-imap <c-F9> <ESC>:call Compile()<CR>
+" Ctrl + 59 一键保存并编译
+map <c-F5> :call Compile()<CR>
+imap <c-F5> <ESC>:call Compile()<CR>
  
 " Ctrl + F10 一键保存并连接
 map <c-F10> :call Link()<CR>
@@ -305,3 +305,9 @@ func! Run()
         echohl WarningMsg | echo " running finish"
     endif
 endfunc
+
+
+
+
+
+
