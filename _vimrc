@@ -138,7 +138,7 @@ endif
 map <F5> :call Run()<CR>
 imap <F5> <ESC>:call Run()<CR>
  
-" Ctrl + 59 一键保存并编译
+" Ctrl + 5 一键保存并编译
 map <c-F5> :call Compile()<CR>
 imap <c-F5> <ESC>:call Compile()<CR>
  
