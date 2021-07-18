@@ -307,7 +307,8 @@ func! Run()
 endfunc
 
 
-
+"修改路径"
+exec 'cd ' . fnameescape('C:\Users\25028\Desktop\code\C_Code')
 
 
 
